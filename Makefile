@@ -1,0 +1,2 @@
+run:
+	java wordle.java
