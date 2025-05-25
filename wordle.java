@@ -15,7 +15,7 @@ import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-class wordle {
+class Main {
 
     public static void main(String[] args) {
         wordleSolver wordle = new wordleSolver("possible.txt");
