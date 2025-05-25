@@ -19,7 +19,7 @@ class wordle {
 
     public static void main(String[] args) {
         wordleSolver wordle = new wordleSolver("possible.txt");
-        JFrame frame = new JFrame("Simple Swing App");
+        JFrame frame = new JFrame("Wordle Solver");
         JTextField textbox = new JTextField();
         JPanel panel = new JPanel();
         JButton button = new JButton("Get Best Word");
