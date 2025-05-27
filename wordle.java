@@ -34,7 +34,7 @@ class Main {
 
         JPanel panel2 = new JPanel();
         JLabel messageLabel = new JLabel("Best Guess: " + wordle.getBestWord());
-        JList[] colorLists = new JList[5];
+        JList<String>[] colorLists = new JList[5];
         for (int i = 0; i < 5; i++) {
             colorLists[i] = new JList<>(colors);
             panel2.add(colorLists[i]);
